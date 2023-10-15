@@ -1,0 +1,149 @@
+.inputsMain {
+  display: flex;
+  flex: 1;
+}
+.inputRegion {
+  margin-top: 10px;
+  flex: 1;
+  margin-right: 10px;
+}
+.inputCountry {
+  flex: 1;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.countryBtn {
+  color: white;
+  text-align: center;
+  background-color: rgb(2, 2, 82);
+  cursor: pointer;
+}
+.regionBtn {
+  color: white;
+  text-align: center;
+  background-color: rgb(2, 2, 82);
+  cursor: pointer;
+}
+.countryList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bodyText {
+  margin-bottom: 0px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.inInfo {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 1.2rem; /* Adjust the icon size as needed */
+  margin-right: 5px; /* Add spacing between the icon and text if needed */
+}
+
+.text {
+  font-size: 1rem; /* Adjust the text size as needed */
+}
+:hover.cards {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 2s ease;
+}
+
+:hover.cardBody {
+  background-color: #98eecc !important;
+  transition: all 2s ease;
+  /* transform: scale(1.3); */
+}
+.details {
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background: white;
+  margin-bottom: 10px;
+  width: 60%;
+}
+a {
+  text-decoration: none;
+}
+.detailsMain {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: center; /* Center horizontally */
+}
+.headline {
+  text-align: center;
+}
+.dataDetails {
+  display: flex;
+  margin-top: 10px;
+  height: 100%;
+}
+.flag {
+  margin-right: 10px;
+  height: 100%;
+  display: flex;
+}
+.countryData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.countryName {
+  display: flex;
+  font-size: larger;
+}
+.detailIcon {
+  text-align: left;
+}
+.restOfData {
+  text-align: left;
+  width: 100%;
+}
+.odd {
+  background-color: rgb(224, 218, 218);
+  border-radius: 3px;
+  display: flex;
+  margin-right: 5px;
+  padding: 3px;
+  flex: 1;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.even {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-right: 5px;
+  padding: 3px;
+  flex: 1;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.imgCountryDetails {
+  width: auto;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 5px 10px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #333;
+  color: #fff;
+}
